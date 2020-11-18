@@ -1,0 +1,450 @@
+body
+{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#projtitle
+{
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 6.5vw;
+  color:#c9c3dd;
+  text-align: left;
+  line-height: 8vw;
+  margin-top: 7vh;
+  margin-left: 0vw !important;
+  margin-right: 4vw !important;
+}
+
+#menubutton
+{
+  font-size: 1.45vw;
+  letter-spacing: 1px;
+  line-height: 1.7vw;
+  font-weight: 600;
+}
+
+#scrolltext
+{
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 11vw;
+  color:#c9c3dd;
+  text-align: left;
+}
+
+#didas
+{
+  font-family: "termina", sans-serif;
+  font-weight: 400;
+  font-size:1.2vw;
+  color:#c9c3dd;
+  text-align: center;
+}
+
+p
+{
+  font-family: "termina", sans-serif;
+  font-weight: 400;
+  font-size:1.6vw;
+  line-height: 3.5vw;
+  color:#c9c3dd;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#category
+{
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 400;
+  font-size:1vw;
+  line-height: 0.001vw;
+  color:#c9c3dd;
+  margin-left: 0vw !important;
+  margin-right: 0vw !important;
+}
+
+#introtext
+{
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 5.5vw;
+  color:#c9c3dd;
+  text-align: left;
+  line-height: 7vw;
+  margin-top: 9vh;
+  overflow:hidden;
+  position: fixed;
+  -webkit-animation:   1s  comparitesto;
+  -moz-animation:   1s  comparitesto;
+  -o-animation:   1s  comparitesto;
+  -ms-animation:   1s  comparitesto;
+  animation: 1s comparitesto;
+}
+
+@-webkit-keyframes comparitesto
+{0%{opacity: 0;}55%{opacity: 0;}100%{opacity: 1;}}
+
+@-moz-keyframes comparitesto
+{0%{opacity: 0;}55%{opacity: 0;}100%{opacity: 1;}}
+
+@-o-keyframes comparitesto
+{0%{opacity: 0;}55%{opacity: 0;}100%{opacity: 1;}}
+
+@-ms-keyframes comparitesto
+{0%{opacity: 0;}55%{opacity: 0;}100%{opacity: 1;}}
+
+@keyframes comparitesto
+{0%{opacity: 0;}55%{opacity: 0;}100%{opacity: 1;}}
+
+h1
+{
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 3.6vw;
+  color:red;
+  line-height: 1.1vw;
+  -webkit-transition:  color 0.5s;
+  -moz-transition:  color 0.5s;
+  -o-transition:  color 0.5s;
+  -ms-transition:  color 0.5s;
+  transition: color 0.5s;
+}
+
+h1:hover
+{
+  color:white;
+}
+
+h2
+{
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 2.2vw;
+  line-height: 0vw;
+  color:#c9c3dd;
+  -webkit-transition:  color 0.5s;
+  -moz-transition:  color 0.5s;
+  -o-transition:  color 0.5s;
+  -ms-transition:  color 0.5s;
+  transition: color 0.5s;
+}
+
+h3
+{
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  color:#c9c3dd;
+  -webkit-transition:  color 0.5s;
+  -moz-transition:  color 0.5s;
+  -o-transition:  color 0.5s;
+  -ms-transition:  color 0.5s;
+  transition: color 0.5s;
+}
+
+h3:hover
+{
+  color:white;
+  cursor:pointer;
+}
+
+a
+{
+  text-decoration-line:none;
+  color: #fff;
+}
+
+#testo1{text-align: left;}
+#testo2{text-align: center;}
+#testo3{text-align: right;}
+
+h4
+{
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  font-size: 3.2vw;
+  line-height: 4vh;
+  letter-spacing: 1px;
+  color:#c9c3dd;
+  text-align: left;
+  -webkit-transition:  color 0.5s;
+  -moz-transition:  color 0.5s;
+  -o-transition:  color 0.5s;
+  -ms-transition:  color 0.5s;
+  transition: color 0.5s;
+}
+
+h4:hover
+{
+  color: #fff;
+  cursor: pointer;
+}
+
+span
+{
+  color:#d8324a;
+}
+
+span:hover
+{
+  color:#9a2233;
+}
+
+h5
+{
+  font-family: "termina", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  color:#c9c3dd;
+}
+
+h6
+{
+  font-family: "termina", sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+  color:#c9c3dd;
+  text-align: center;
+  background: red;
+}
+
+h6:hover
+{
+  color: #fff;
+  cursor: pointer;
+}
+
+img
+{
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-drag: none;
+  -moz-user-select: none;
+  -o-user-drag: none;
+  -o-user-select: none;
+  -ms-user-drag: none;
+  -ms-user-select: none;
+  user-drag: none;
+  user-select: none;
+}
+
+svg
+{
+  padding-left:1vh;
+  padding-right:1vh;
+  fill:#c9c3dd;
+}
+
+svg:hover
+{
+  fill:#fff;
+  -webkit-transition: fill 0.5s;
+  -moz-transition: fill 0.5s;
+  -o-transition: fill 0.5s;
+  -ms-transition:  fill 0.5s;
+  transition: fill 0.5s;
+}
+
+#about
+{
+line-height: 1vh;
+}
+
+#about_testo
+{
+  margin-top: 2vw;
+  text-align: left;
+  font-size:1.4vw;
+  line-height: 2.4vw;
+}
+
+.about-body
+{
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+
+.about-container
+{
+  display: grid;
+  grid-template-rows:repeat(127, 127fr);
+  margin-left: 0vw;
+  margin-right: 0vw;
+  -webkit-animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s;
+  -o-animation: fadein 1.5s;
+  -ms-animation:  fadein 1.5s;
+  animation: fadein 1.5s;
+  z-index: 1;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.about-container-1
+{
+  grid-row: 1 / span 50;
+}
+
+.about-container-2
+{
+  grid-row: 51 / span 77;
+}
+
+.scroll-body
+{
+  margin-left: -6vw;
+  margin-right: 0vw;
+}
+
+.scroll-container
+{
+  display: grid;
+  grid-template-columns:repeat(100, 100fr);
+  height:60vh;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  margin-top: 38.5vh;
+  -webkit-animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s;
+  -o-animation: fadein 1.5s;
+  -ms-animation:  fadein 1.5s;
+  animation: fadein 1.5s;
+}
+
+.scroll-container-1
+{
+  grid-column: 9 / span 39;
+}
+
+.scroll-container-2
+{
+  grid-column: 49 / span 23;
+}
+
+.scroll-container-3
+{
+  grid-column: 74 / span 26;
+}
+
+#scrollogo
+{
+  width:15.4vw;
+  margin-top: 1.7vh;
+  margin-left: 1.4vw;
+  stroke:#c9c3dd;
+  -webkit-animation: 14s  ruotacostant infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation: 14s  ruotacostant infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation: 14s  ruotacostant infinite;
+  -o-animation-timing-function: linear;
+  -ms-animation: 14s  ruotacostant infinite;
+  -ms-animation-timing-function: linear;
+  animation: 14s ruotacostant infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes ruotacostant {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);transform: rotate(360deg);}}
+@-moz-keyframes ruotacostant {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);transform: rotate(360deg);}}
+@-o-keyframes ruotacostant {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);transform: rotate(360deg);}}
+@-ms-keyframes ruotacostant {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);transform: rotate(360deg);}}
+@keyframes ruotacostant {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);transform: rotate(360deg);}}
+
+#menupage
+{
+  margin-top: 10vh;
+  -webkit-animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s;
+  -o-animation: fadein 1.5s;
+  -ms-animation:  fadein 1.5s;
+  animation: fadein 1.5s;
+}
+
+.slider-container
+{
+  grid-template-rows:repeat(100, 100fr);
+  height:77vh;
+  margin-top: 10vh;
+  -webkit-animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s;
+  -o-animation: fadein 1.5s;
+  -ms-animation:  fadein 1.5s;
+  animation: fadein 1.5s;
+}
+
+.slider-container-1
+{
+  grid-row: 1 / span 90;
+}
+
+.slider-container-1 img
+{
+  position: absolute;
+  width:71vw;
+  clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.slider-container-2
+{
+  margin-top: 38vw;
+  width:71vw;
+  display: inline-grid;
+  grid-row: 91 / span 10;
+  grid-template-columns:repeat(100, 100fr);
+}
+
+.slider-container-2a
+{
+  grid-column: 1 / span 15;
+  margin-top: 0vh;
+}
+
+.slider-container-2b
+{
+  grid-column: 16 / span 70;
+  text-align: center;
+  margin-top: 0vh;
+}
+
+.slider-container-2c
+{
+  grid-column: 86 / span 16;
+  text-align: right;
+  margin-top: 0vh;
+}
+
+.projcontainer
+{
+  margin-left: 0vw;
+  margin-right: 0vw;
+  -webkit-animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s;
+  -o-animation: fadein 1.5s;
+  -ms-animation:  fadein 1.5s;
+  animation: fadein 1.5s;
+  z-index: 1;
+  -webkit-transform: translate3d(0,0,0);
+
+}
+
+#pi_testo
+{
+  margin-top: -8vw;
+}
+
+.about-containerm
+{display: none;}
+
+#objectone-mob
+{display: none;}
+
+@-webkit-keyframes fadein{0% {opacity: 0;}10% {opacity: 0;}100% {opacity: 1;}}
+@-moz-keyframes fadein{0% {opacity: 0;}10% {opacity: 0;}100% {opacity: 1;}}
+@-o-keyframes fadein{0% {opacity: 0;}10% {opacity: 0;}100% {opacity: 1;}}
+@-ms-keyframes fadein{0% {opacity: 0;}10% {opacity: 0;}100% {opacity: 1;}}
+@keyframes fadein{0% {opacity: 0;}10% {opacity: 0;}100% {opacity: 1;}}

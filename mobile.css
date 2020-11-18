@@ -1,0 +1,298 @@
+/* ------------------------------- MOBILE GENERICO ------------------------------- */
+@media only screen and (max-width: 600px)
+{
+
+    /*body{overflow: hidden!important;}*/
+
+    #bg2
+    {
+      background-size: 9.1%;
+      margin-left: -1.7vw;
+      clip: rect(0px,600px,1067px,0px);
+      overflow:hidden;
+    }
+
+@-webkit-keyframes comparibg{0%{clip: rect(533.5px,600px,533.5px,0px);}80%{clip: rect(533.5px,600px,533.5px,0px);}100%{clip: rect(0px,600px,1067px,0px);}}
+@-moz-keyframes comparibg{0%{clip: rect(533.5px,600px,533.5px,0px);}80%{clip: rect(533.5px,600px,533.5px,0px);}100%{clip: rect(0px,600px,1067px,0px);}}
+@-o-keyframes comparibg{0%{clip: rect(533.5px,600px,533.5px,0px);}80%{clip: rect(533.5px,600px,533.5px,0px);}100%{clip: rect(0px,600px,1067px,0px);}}
+@-ms-keyframes comparibg{0%{clip: rect(533.5px,600px,533.5px,0px);}80%{clip: rect(533.5px,600px,533.5px,0px);}100%{clip: rect(0px,600px,1067px,0px);}}
+@keyframes comparibg{0%{clip: rect(533.5px,600px,533.5px,0px);}80%{clip: rect(533.5px,600px,533.5px,0px);}100%{clip: rect(0px,600px,1067px,0px);}}
+
+    #intro
+    {
+      display:none;
+    }
+
+    #loaderlogo
+    {
+      width:40%;
+      margin-left: 27vw;
+      margin-top: 40vh;
+    }
+
+    .grid-container
+    {
+      display: grid;
+      height:102vh;
+      overflow: hidden;
+    }
+
+    .mobilehome
+    {
+      display: grid;
+      grid-template-rows: repeat(100, 100fr);
+    }
+
+    .mobilehome-bar
+    {
+      display:grid;
+      grid-template-columns:repeat(280, 280fr);
+      height:15vh;
+      width: 100vw;
+      margin-top: 3.5vh;
+      grid-row: 1 / span 20;
+    }
+
+    .mobilehome-b1
+    {grid-column: 1 / span 17 ;}
+
+    .mobilehome-b2
+    {grid-column: 18 / span 90 ;
+    margin-top: 1vh;}
+
+    .mobilehome-b3
+    {grid-column: 108 / span 60 ;}
+
+    .mobilehome-b4
+    {grid-column: 178 / span 90 ;
+    margin-top: 4.5vh;
+  z-index: 1;
+-webkit-transform: translate3d(0,0,0);}
+
+    .mobilehome-b5
+    {grid-column: 268 / span 13 ;}
+
+    .mobilehome-content
+    {
+      grid-row: 24 / span 77;
+      display: grid;
+      grid-template-columns:repeat(280, 280fr);
+      width: 100vw;
+      overflow: scroll;
+    }
+
+    .mobilehome-c1
+    {grid-column: 1 / span 21;}
+    .mobilehome-c2
+    {grid-column: 22 / span 236;}
+    .mobilehome-c3
+    {grid-column: 258 / span 23;}
+
+
+    #homelogo
+    {
+      margin-top: 0vh;
+      width: 27vw;
+    }
+
+
+    .grid-item-1
+    {
+      display: none;
+    }
+
+    p
+    {
+      font-weight: 400;
+      font-size:2.2vh;
+      line-height: 3.5vh;
+      color:#c9c3dd;
+    }
+
+  #didas
+  {
+    font-size: 2vh;
+  }
+
+    #projtitle
+    {
+      font-family: "termina", sans-serif;
+      font-weight: 600;
+      font-size: 3vh;
+      line-height: 5vh;
+      color:#c9c3dd;
+      margin-top: 0vh;
+      text-align: center;
+    }
+
+    h4
+    {
+      font-family: "termina", sans-serif;
+      font-weight: 600;
+      font-size: 5.6vw;
+      line-height: 6.8vw;
+      color:#c9c3dd;
+      -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+      transition: color 0.5s;
+      text-align: center;
+      letter-spacing: 0vh;
+    }
+
+    #menupage
+    {
+      margin-top: 0vh;
+      -webkit-animation: fadein 1.5s;
+      -moz-animation: fadein 1.5s;
+      -o-animation: fadein 1.5s;
+      -ms-animation:  fadein 1.5s;
+      animation: fadein 1.5s;
+    }
+
+    #objectone-mob
+    {
+      display: initial;
+      width: 82.2vw;
+      height:85vh;
+      overflow: scroll;
+      z-index:2;
+      -webkit-transform: translate3d(0,0,0);
+
+    }
+
+    #objectone
+    {
+      display:none;
+    }
+
+    #about
+    {
+      font-size: 5.8vw;
+    }
+
+    .mobileslider
+    {
+      display: inline;
+    }
+
+    #slider
+    {
+      margin-top: 25vh;
+      overflow: hidden;
+    }
+
+    #profilepic
+    {
+      width: 100%;
+    }
+
+    #about_testo
+    {
+      margin-top:-65vw;
+      font-size: 5vw;
+      text-align: left;
+      line-height: 8vw;
+    }
+
+    #category
+    {
+      display: none;
+    }
+
+    .about-containerm
+    {
+      display: grid;
+      grid-template-rows:repeat(110, 110fr);
+      margin-left: 0vw;
+      margin-right: 0vw;
+      -webkit-animation: fadein 1.5s;
+      -moz-animation: fadein 1.5s;
+      -o-animation: fadein 1.5s;
+      -ms-animation:  fadein 1.5s;
+      animation: fadein 1.5s;
+      overflow: scroll;
+      z-index:2;
+      -webkit-transform: translate3d(0,0,0);
+    }
+
+  .about-container
+  {
+    display:none;
+  }
+
+    .about-container-m1
+    {
+      grid-row: 1 / span 50;
+    }
+
+    .about-container-m2
+    {
+      grid-row: 51 / span 60;
+    }
+
+    .projcontainer
+    {
+      overflow:scroll!important;
+      z-index:2;
+      -webkit-transform: translate3d(0,0,0);
+    }
+
+    #rcimg, #piimg1, #piimg2, #piimg3, #piimg4, #piimg5, #piimg7, #piimg9
+    {
+      width:100%;
+    }
+
+    #piimg6
+    {
+      width:77%;
+    }
+
+    #piimg8
+    {
+      width:78%;
+    }
+
+}
+
+/* ------------------------------- 1440X900 ------------------------------- */
+
+@media only screen and (max-width: 1440px)
+{
+  #bg2{clip: rect(0px,1440px,900px,0px);
+  overflow:hidden;}
+
+  .grid-item-1b{margin-top: 27vh;}
+  .grid-item-1c{margin-top: 13.5vw;}
+
+  @-webkit-keyframes comparibg{0%{clip: rect(450px,1440px,450px,0px);}80%{clip: rect(450px,1440px,450px,0px);}100%{clip: rect(0px,1440px,900px,0px);}}
+  @-moz-keyframes comparibg{0%{clip: rect(450px,1440px,450px,0px);}80%{clip: rect(450px,1440px,450px,0px);}100%{clip: rect(0px,1440px,900px,0px);}}
+  @-o-keyframes comparibg{0%{clip: rect(450px,1440px,450px,0px);}80%{clip: rect(450px,1440px,450px,0px);}100%{clip: rect(0px,1440px,900px,0px);}}
+  @-ms-keyframes comparibg{0%{clip: rect(450px,1440px,450px,0px);}80%{clip: rect(450px,1440px,450px,0px);}100%{clip: rect(0px,1440px,900px,0px);}}
+  @keyframes comparibg{0%{clip: rect(450px,1440px,450px,0px);}80%{clip: rect(450px,1440px,450px,0px);}100%{clip: rect(0px,1440px,900px,0px);}}
+}
+
+/* ------------------------------- IPHONE 6 ------------------------------- */
+
+@media only screen and (max-width: 375px)
+{
+  #bg2{clip: rect(0px,375px,850px,0px);
+  overflow:hidden;}
+
+  @-webkit-keyframes comparibg{0%{clip: rect(425px,375px,425px,0px);}80%{clip: rect(425px,375px,425px,0px);}100%{clip: rect(0px,375px,850px,0px);}}
+  @-moz-keyframes comparibg{0%{clip: rect(425px,375px,425px,0px);}80%{clip: rect(425px,375px,425px,0px);}100%{clip: rect(0px,375px,850px,0px);}}
+  @-o-keyframes comparibg{0%{clip: rect(425px,375px,425px,0px);}80%{clip: rect(425px,375px,425px,0px);}100%{clip: rect(0px,375px,850px,0px);}}
+  @-ms-keyframes comparibg{0%{clip: rect(425px,375px,425px,0px);}80%{clip: rect(425px,375px,425px,0px);}100%{clip: rect(0px,375px,850px,0px);}}
+  @keyframes comparibg{0%{clip: rect(425px,375px,425px,0px);}80%{clip: rect(425px,375px,425px,0px);}100%{clip: rect(0px,375px,850px,0px);}}
+}
+
+/* ------------------------------- IPHONE 5/SE ------------------------------- */
+
+@media only screen and (max-width: 320px)
+{
+  #bg2{clip: rect(0px,320px,568px,0px);
+  overflow:hidden;}
+  @-webkit-keyframes comparibg{0%{clip: rect(284px,320px,284px,0px);}80%{clip: rect(284px,320px,284px,0px););}100%{clip: rect(0px,320px,568px,0px);}}
+  @-moz-keyframes comparibg{0%{clip: rect(284px,320px,284px,0px);}80%{clip: rect(284px,320px,284px,0px););}100%{clip: rect(0px,320px,568px,0px);}}
+  @-o-keyframes comparibg{0%{clip: rect(284px,320px,284px,0px);}80%{clip: rect(284px,320px,284px,0px););}100%{clip: rect(0px,320px,568px,0px);}}
+  @-ms-keyframes comparibg{0%{clip: rect(284px,320px,284px,0px);}80%{clip: rect(284px,320px,284px,0px););}100%{clip: rect(0px,320px,568px,0px);}}
+  @keyframes comparibg{0%{clip: rect(284px,320px,284px,0px);}80%{clip: rect(284px,320px,284px,0px););}100%{clip: rect(0px,320px,568px,0px);}}
+}

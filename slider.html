@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="formattazione.css">
+  <link rel="stylesheet" href="showroom.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="https://use.typekit.net/zbm6piy.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script type="text/javascript" src="functions.js"></script>
+  <script type="text/javascript" src="showroom.js"></script>
+    <script type="text/javascript" src="buttons.js"></script>
+  <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+</head>
+
+<body>
+<div class="slider-container" id="sliderscroll" onclick="display_work()">
+    <div class="slider-container-1"><img src="images/bcs_main.png" id="bannerimage"></div>
+    <div class="slider-container-2">
+        <div class="slider-container-2a"><h2 id="testo1">2018</h2></div>
+        <div class="slider-container-2b"><h2 id="testo2">BALLA COI SIOUX</h2></div>
+        <div class="slider-container-2c"><h2 id="testo3">1/8</h2></div>
+    </div>
+</div>
+</body>
+
+
+</html>
+
+<script>document.getElementById("sliderscroll").addEventListener("wheel", slider_scroll);</script>
+<style>::-webkit-scrollbar{display: none;}</style>

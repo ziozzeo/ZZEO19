@@ -1,0 +1,74 @@
+#ballacoisioux
+{
+  display: none;
+  grid-row: 1 / span 32;
+  overflow:scroll;
+  height:100vh;
+}
+
+#planumbus
+{
+  display: none;
+  grid-row: 1 / span 32;
+  overflow:scroll;
+  height:100vh;
+}
+
+#pittureinesperte
+{
+  display: none;
+  grid-row: 1 / span 32;
+  overflow:scroll;
+  height:100vh;
+}
+
+#egglestontribute
+{
+  display: none;
+  grid-row: 1 / span 32;
+  overflow:scroll;
+  height:100vh;
+}
+
+#vimu
+{
+  display: none;
+  grid-row: 1 / span 32;
+  overflow:scroll;
+  height:100vh;
+}
+
+#loghi
+{
+  display: none;
+  grid-row: 1 / span 32;
+  overflow:scroll;
+  height:100vh;
+}
+
+#recover
+{
+  display: none;
+  grid-row: 1 / span 32;
+  overflow:scroll;
+  height:100vh;
+}
+
+#mywatchisbroken
+{
+  display: none;
+  grid-row: 1 / span 32;
+  overflow:scroll;
+  height:100vh;
+}
+
+#pi_testo
+{
+  text-align: left;
+  margin-right: 15%;
+}
+
+::-webkit-scrollbar
+{
+  display: none;
+}

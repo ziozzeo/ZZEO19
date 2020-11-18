@@ -1,0 +1,75 @@
+<html>
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Communication Designer and Digital Artist based in Milan.">
+  <meta name="keywords" content="UX,UI,Digital">
+  <link rel="stylesheet" href="stile.css">
+  <link rel="stylesheet" href="formattazione.css">
+  <link rel="stylesheet" href="showroom.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="https://use.typekit.net/zbm6piy.css">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script type="text/javascript" src="functions.js"></script>
+  <script type="text/javascript" src="showroom.js"></script>
+    <script type="text/javascript" src="buttons.js"></script>
+    <script src="jquery.js"></script>
+
+<script>
+$(function(){
+  var dimensione = window.innerWidth;
+  if(dimensione >= 600){$("#objectone").load("scroll.html");}
+  else {$("#objectone-mob").load("menu.html");}
+});
+</script>
+
+  <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+  <title>ZZEO - Digital Portfolio</title>
+</head>
+
+<body id="stopper">
+  <div id="bg2"></div>
+  <div id="loader"><svg id="loaderlogo" width="15%" onclick="backtohome()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg></div>
+
+  <div class="grid-container">
+
+<div class="mobilehome">
+    <div class="mobilehome-bar">
+      <div class="mobilehome-b1"></div>
+      <div class="mobilehome-b2"><div class="mobilelogo"><svg id="homelogo" width="100%" onclick="backtohome('mobile')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg></div></div>
+      <div class="mobilehome-b3"></div>
+      <div class="mobilehome-b4"><h3 onclick="aprichiudiabout('mobile')" id="about">ABOUT</h3></div>
+      <div class="mobilehome-b5"></div>
+    </div>
+
+    <div class="mobilehome-content">
+      <div class="mobilehome-c1"></div>
+      <div class="mobilehome-c2" id="objectone-mob"></div>
+      <div class="mobilehome-c3"></div>
+    </div>
+  </div>
+
+    <div class="grid-item-1">
+      <div class="grid-item-a"></div>
+      <div class="grid-item-b">      <div class="grid-item-1a"><svg id="homelogo" width="100%" onclick="backtohome('desktop')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-1{stroke-width:13px;}.cls-2{stroke-width:11px;}.cls-3{stroke-width:15px;}</style></defs><title>logo</title><circle class="cls-1" cx="117" cy="150" r="54.07"/><line class="cls-2" x1="66.25" y1="96" x2="171.25" y2="204"/><line class="cls-2" x1="62.75" y1="202.5" x2="170.75" y2="97.5"/><circle class="cls-1" cx="265" cy="150" r="54.07"/><line class="cls-2" x1="214.25" y1="96" x2="319.25" y2="204"/><line class="cls-2" x1="210.75" y1="202.5" x2="318.75" y2="97.5"/><circle class="cls-3" cx="191" cy="191" r="183.5"/><line class="cls-1" x1="83.5" y1="275" x2="298.5" y2="275"/><line class="cls-2" x1="101" y1="247.82" x2="101" y2="304.4"/><line class="cls-2" x1="137" y1="247.82" x2="137" y2="304.4"/><line class="cls-2" x1="173" y1="247.82" x2="173" y2="304.4"/><line class="cls-2" x1="209" y1="247.82" x2="209" y2="304.4"/><line class="cls-2" x1="245" y1="247.82" x2="245" y2="304.4"/><line class="cls-2" x1="281" y1="247.82" x2="281" y2="304.4"/></svg></div>
+            <div class="grid-item-1b"><h3 id="menubutton" onclick="aprichiudimenu()">WORKS</h3><h3 onclick="aprichiudiabout('desktop')" id="menubutton">ABOUT</h3></div>
+            <div class="grid-item-1c"><a href="https://www.behance.net/lucamazzeo" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" id="be" viewBox="0 -1 24 24"><path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/></svg></a>
+              <a href="https://www.instagram.com/_zzzeo" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" id="inst" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            </div></div>
+      <div class="grid-item-c"></div>
+
+    </div>
+
+    <div class="grid-item-2"></div>
+
+<div class="grid-item-3" id="objectone"></div>
+<div class="grid-item-4"></div>
+
+    </div>
+
+</body>
+<script>document.getElementById("sliderscroll").addEventListener("wheel", slider_scroll);</script>
+<script>document.getElementById("sliderscroll").addEventListener("keydown", keycontrols);</script>
+</html>
